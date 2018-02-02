@@ -225,6 +225,22 @@ $ git remote add origin http://github.com/ludgoole/testgit.git
 
 I will be back!@DESKTOP-7S4OCHI MINGW32 /d/www/testgit (master)
 $ git push -u origin master
+
+I will be back!@DESKTOP-7S4OCHI MINGW32 ~/Desktop/grunt (master)
+$ git push -u origin master
+warning: redirecting to https://github.com/ludgoole/grunt.git/
+To http://github.com/ludgoole/grunt.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'http://github.com/ludgoole/grunt.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+I will be back!@DESKTOP-7S4OCHI MINGW32 ~/Desktop/grunt (master)
+$ git push -f origin master
+
 warning: redirecting to https://github.com/ludgoole/testgit.git/
 Counting objects: 9, done.
 Delta compression using up to 4 threads.
